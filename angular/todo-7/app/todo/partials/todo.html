@@ -1,0 +1,6 @@
+<a href="#/">Retour</a>
+
+<h1>{{ todo.title }}</h1>
+
+Le {{ todo.date | date:"dd/MM" }} à {{ todo.date | date:"H:mm:ss" }}
+<span ng-show="todo.done">&#x2713;</span><span ng-hide="todo.done">&#xd7;</span>

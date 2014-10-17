@@ -1,0 +1,23 @@
+<h1>ToDo List</h1>
+
+<fieldset>
+  <legend>Recherche</legend>
+  <input type="text" ng-model="filterText" />
+  Toutes : <input ng-model="filterDone.done" type="radio" value="" />
+  Faites : <input ng-model="filterDone.done" type="radio" value="true" />
+  Non faites : <input ng-model="filterDone.done" type="radio" value="false" />
+</fieldset>
+
+<fieldset>
+  <legend>Ajout</legend>
+  <input type="text" ng-model="newTodo" /> <button ng-click="addTodo()">Ajouter</button>
+</fieldset>
+
+<ul>
+  <li ng-repeat="todo in todoList | orderBy:'title' | filter:filterText | filter:filterDone">
+    <button ng-click="todo.done = true">Ok</button> <button ng-click="removeTodo(todo)">Supprimer</button>
+    {{ todo.date | date:"dd/MM" }}
+    <span ng-show="todo.done">&#x2713;</span><span ng-hide="todo.done">&#xd7;</span>
+    <a ng-href="#/todo/{{ todo.id }}">{{ todo.title }}</a>
+  </li>
+</ul>
