@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: TODO-list\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Gagaro <gagaro42@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: FR\n"
+
+#: /home/gagaro/formations/tp/angular/todo-13/app/todo/partials/home.html
+msgid "Ajout"
+msgstr "Ajout"
+
+#: /home/gagaro/formations/tp/angular/todo-13/app/todo/partials/home.html
+msgid "Ajouter"
+msgstr "Ajouter"
+
+#: /home/gagaro/formations/tp/angular/todo-13/app/todo/partials/home.html
+msgid "Faites :"
+msgstr "Faites :"
+
+#: /home/gagaro/formations/tp/angular/todo-13/app/todo/partials/home.html
+msgid "Non faites :"
+msgstr "Non faites :"
+
+#: /home/gagaro/formations/tp/angular/todo-13/app/todo/partials/home.html
+msgid "Recherche"
+msgstr "Recherche"
+
+#: /home/gagaro/formations/tp/angular/todo-13/app/todo/partials/todo.html
+msgid "Retour"
+msgstr "Retour"
+
+#: /home/gagaro/formations/tp/angular/todo-13/app/todo/partials/home.html
+msgid "Supprimer"
+msgstr "Supprimer"
+
+#: /home/gagaro/formations/tp/angular/todo-13/app/todo/partials/home.html
+msgid "Toutes :"
+msgstr "Toutes :"

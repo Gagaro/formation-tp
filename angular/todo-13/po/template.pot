@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /home/gagaro/formations/tp/angular/todo-13/app/todo/partials/home.html
+msgid "Ajout"
+msgstr ""
+
+#: /home/gagaro/formations/tp/angular/todo-13/app/todo/partials/home.html
+msgid "Ajouter"
+msgstr ""
+
+#: /home/gagaro/formations/tp/angular/todo-13/app/todo/partials/home.html
+msgid "Faites :"
+msgstr ""
+
+#: /home/gagaro/formations/tp/angular/todo-13/app/todo/partials/home.html
+msgid "Non faites :"
+msgstr ""
+
+#: /home/gagaro/formations/tp/angular/todo-13/app/todo/partials/home.html
+msgid "Recherche"
+msgstr ""
+
+#: /home/gagaro/formations/tp/angular/todo-13/app/todo/partials/todo.html
+msgid "Retour"
+msgstr ""
+
+#: /home/gagaro/formations/tp/angular/todo-13/app/todo/partials/home.html
+msgid "Supprimer"
+msgstr ""
+
+#: /home/gagaro/formations/tp/angular/todo-13/app/todo/partials/home.html
+msgid "Toutes :"
+msgstr ""

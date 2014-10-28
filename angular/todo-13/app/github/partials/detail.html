@@ -1,0 +1,15 @@
+<a href="#/">Retour</a>
+
+<h1>{{ project.name }}</h1>
+
+<p>{{ project.description }}</p>
+
+<a ng-href="{{ project.html_url }}">Vers GitHub</a>
+
+<h2>Pull requests</h2>
+
+<ul>
+  <li ng-repeat="pull in pulls">
+    <a ng-href="{{ pull.html_url }}">{{ pull.title }}</a>
+  </li>
+</ul>
