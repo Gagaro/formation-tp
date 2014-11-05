@@ -1,0 +1,27 @@
+<div>
+  <button ng-click="changeLanguage('EN')">English</button>
+  <button ng-click="changeLanguage('FR')">Français</button>
+</div>
+
+<fieldset>
+  <legend><i class="fa fa-search"></i> <span translate>Recherche</span></legend>
+  <input type="text" ng-model="filterText" />
+  <span translate>Toutes :</span> <input ng-model="filterDone.done" type="radio" value="" />
+  <span translate>Faites :</span> <input ng-model="filterDone.done" type="radio" value="true" />
+  <span translate>Non faites :</span> <input ng-model="filterDone.done" type="radio" value="false" />
+</fieldset>
+
+<fieldset>
+  <legend><i class="fa fa-plus"></i> <span translate>Ajout</span></legend>
+  <input type="text" ng-model="newTodo" /> <button ng-click="addTodo()"><i class="fa fa-plus"></i> <span translate>Ajouter</span></button>
+</fieldset>
+
+<ul>
+  <li ng-repeat="todo in todoList | orderBy:'title' | filter:filterText | filter:filterDone">
+    <button ng-click="todo.done = true"><i class="fa fa-check"></i></button> <button ng-click="removeTodo(todo)"><i class="fa fa-remove"></i> <span translate>Supprimer</span></button>
+    <todo todo="todo" date-format="'dd/MM'"></todo>
+    <a ui-sref="todo.detail({id: todo.id})">{{ todo.title }}</a>
+  </li>
+</ul>
+
+<div ui-view></div>

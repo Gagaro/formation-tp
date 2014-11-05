@@ -3,7 +3,7 @@ var app = angular.module('myApp.todo', ['ngRoute']);
 app.config(function($routeProvider){
   $routeProvider
     .when('/', {
-      templateUrl: 'todo/partials/home.html',
+      templateUrl: 'todo/partials/list.html',
       controller: 'TodoListController',
     })
     .when('/todo/:id', {

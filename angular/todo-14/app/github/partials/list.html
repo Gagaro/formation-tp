@@ -1,0 +1,9 @@
+<a href="#/">Retour</a>
+
+<h1>GitHub</h1>
+
+<ul>
+  <li ng-repeat="project in projects | orderBy:'name'">
+    <a ng-href="#/github/{{ project.name }}">{{ project.name }}</a>
+  </li>
+</ul>
